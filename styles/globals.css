@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +13,95 @@ a {
 
 * {
   box-sizing: border-box;
+} */
+
+
+
+
+
+
+.App {
+  background-color: #FFF;
+  text-align: center;
+  font-size: 160%;
+}
+
+* {
+  font-family: "Jim Nightshade";
+  line-height: 1;
+}
+
+.App-content {
+  padding: 1em 1em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+ul {
+  display: inline-block;
+  margin: 0;
+  max-width: 800px;
+  text-align: left;
+  list-style-position: inside;
+  padding: 0.4em 0 0.4em 1em;
+}
+
+li {
+  text-indent: -20px;
+  line-height: 1.5;
+}
+
+.App-header {
+  border-bottom: 2px solid black;
+  position: relative;
+  height: 40vmin;
+}
+
+button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+  line-height: 1;
+  border-radius: 10px;
+  line-height: 1;
+  padding: 20px 40px;
+  font-size: 32px;
+  font-weight: bold;
+  display: block;
+  margin: 1em auto;
+}
+
+button:hover {
+  background-color: #90c640;
+  color: black;
+}
+
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+p {
+  border-bottom: 2px solid black;
+  padding: 0.8em;
+}
+
+.checkout-details, select {
+  font-family: sans-serif;
+  /* border: 1px solid black; */
+  display: inline-block;
+  text-align: left;
+  padding: 0.5em;
+  line-height: 1.5;
+}
+
+select {
+  font-size: 20px;
+  /* zoom: 150%; */
 }
