@@ -18,7 +18,7 @@ export default async function handler(
       process.env[`${base}_${req.body.testmode ? 'TEST' : 'PROD'}`];
 
     const stripeKey = getEnvParam('STRIPE_SECRET');
-    console.log('stripeKey', stripeKey)
+    // console.log('stripeKey', stripeKey)
     const stripe = require('stripe')(stripeKey);
     const session = await stripe.checkout.sessions.create({
       shipping_address_collection: {
