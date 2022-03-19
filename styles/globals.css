@@ -60,6 +60,7 @@ li {
   border-bottom: 2px solid black;
   position: relative;
   height: 40vmin;
+  z-index: 3000;
 }
 
 button {
