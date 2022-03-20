@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       {
         body: JSON.stringify({
           quantity,
-          // testmode: true
+          testmode: window.location.href.includes('test')
         }),
         headers: {
           'Content-Type': 'application/json'
