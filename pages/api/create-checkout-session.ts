@@ -18,7 +18,7 @@ export default async function handler(
       process.env[`${base}_${req.body.testmode ? 'TEST' : 'PROD'}`];
 
     const stripeKey = getEnvParam('STRIPE_SECRET');
-    // console.log('stripeKey', stripeKey)
+    console.log('stripeKey', stripeKey)
     const stripe = require('stripe')(stripeKey);
     const session = await stripe.checkout.sessions.create({
       shipping_address_collection: {
@@ -73,7 +73,7 @@ export default async function handler(
           price_data: {
             currency: 'usd',
             product: getEnvParam('STRIPE_PRODUCT_ID'),
-            unit_amount: 2200,
+            unit_amount: 2499,
           },
           quantity: req.body.quantity,
           adjustable_quantity: {

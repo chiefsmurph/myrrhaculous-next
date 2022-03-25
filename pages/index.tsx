@@ -58,6 +58,7 @@ const Home: NextPage = () => {
         <div className="App-content">
           <h2>{`Jamie's All Natural Organic Tooth Powder`}</h2>
           <ul>
+            <li>A toothpaste alternative</li>
             <li>Not only is it anti-microbial, it also cleans and whitens teeth</li>
             <li>Myrrh has been used as a medicinal herb for thousands of years.  It is mentioned several times in the Bible, in the writings as old as Psalms and the Song of Solomon.  Of course it is well known as one of the three gifts that Magi brought to Jesus Christ.</li>
             <li>Ingredients: baking soda, myrrh, activated charcoal</li>
@@ -74,7 +75,7 @@ const Home: NextPage = () => {
                   ))
                 }
               </select><br/>
-              Total Cost: ${quantity * 22} + free shipping<br/>
+              Total Cost: ${quantity * 24.99} + free shipping<br/>
             </div>
 
             <button type="submit">BUY 😁</button>
