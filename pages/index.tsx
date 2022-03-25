@@ -53,7 +53,7 @@ const Home: NextPage = () => {
         >
 
         <header className="App-header">
-          <Image src={logo} className="App-logo" alt="logo" layout="fill" objectFit='contain' />
+          <Image src={'/logofinal.png'} className="App-logo" alt="logo" layout="fill" objectFit='contain' />
         </header>
         <p>Hi, welcome to Myrrhaculous.com.<br/>You have come to the right place for all of your natural, organic health needs.</p>
         <div className="App-content">
