@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useState, useCallback } from 'react'
 import Image from 'next/image'
+import logo from '../public/logofinal.png';
 import React from "react";
 const { default: LoadingOverlay } = require('react-loading-overlay');
  
@@ -52,7 +53,7 @@ const Home: NextPage = () => {
         >
 
         <header className="App-header">
-          <Image src={'/PNG LOGO TRANSPARENT-02.png'} className="App-logo" alt="logo" layout="fill" objectFit='contain' />
+          <Image src={logo} className="App-logo" alt="logo" layout="fill" objectFit='contain' />
         </header>
         <p>Hi, welcome to Myrrhaculous.com.<br/>You have come to the right place for all of your natural, organic health needs.</p>
         <div className="App-content">
